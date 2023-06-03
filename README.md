@@ -29,3 +29,6 @@ go get github.com/jmoiron/sqlx
 go: downloading github.com/jmoiron/sqlx v1.3.5
 go: added github.com/jmoiron/sqlx v1.3.5
 ```
+
+## Script for database creation and test data
+/api/udemy/rest-based-microservices-api-development-in-go-lang/db/resources/database.sql
