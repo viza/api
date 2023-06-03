@@ -30,5 +30,8 @@ go: downloading github.com/jmoiron/sqlx v1.3.5
 go: added github.com/jmoiron/sqlx v1.3.5
 ```
 
+## Example with DTO (Data Transfer Object)
+/api/udemy/rest-based-microservices-api-development-in-go-lang/customers-dto
+
 ## Script for database creation and test data
 /api/udemy/rest-based-microservices-api-development-in-go-lang/db/resources/database.sql
