@@ -21,3 +21,11 @@ go: added go.uber.org/atomic v1.11.0
 go: added go.uber.org/multierr v1.11.0
 go: added go.uber.org/zap v1.24.0
 ```
+
+## Example with Database sqlx package
+/api/udemy/rest-based-microservices-api-development-in-go-lang/customers-sqlx
+```
+go get github.com/jmoiron/sqlx   
+go: downloading github.com/jmoiron/sqlx v1.3.5
+go: added github.com/jmoiron/sqlx v1.3.5
+```
