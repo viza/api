@@ -1,0 +1,17 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:8.0.33
+    ports: 
+      - "127.0.0.1:3306:3306"
+    volumes:
+      - mysqldata:/usr/local/mysql/data/
+      - ./init.db:/usr/local/mysql-8.0.33-macos13-arm64/
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: !vetalr00t!
+      TZ: Europe/London
+
+volumes:
+  mysqldata:
+    driver: local
