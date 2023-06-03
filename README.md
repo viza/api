@@ -33,5 +33,9 @@ go: added github.com/jmoiron/sqlx v1.3.5
 ## Example with DTO (Data Transfer Object)
 /api/udemy/rest-based-microservices-api-development-in-go-lang/customers-dto
 
+
+## Example with environment variables for database 
+/api/udemy/rest-based-microservices-api-development-in-go-lang/customers-env
+
 ## Script for database creation and test data
 /api/udemy/rest-based-microservices-api-development-in-go-lang/db/resources/database.sql
